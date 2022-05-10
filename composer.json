@@ -1,0 +1,21 @@
+{
+    "name": "sixsad/helpers",
+    "description": "helpers for laravel microservices",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sixsad\\Helpers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SixSad",
+            "email": "vizxs@bk.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    }
+}
