@@ -5,7 +5,7 @@ namespace Sixsad\Helpers;
 use Egal\Model\Exceptions\ValidateException;
 use Illuminate\Support\Facades\Validator;
 
-class ServiceValidator
+class MicroserviceValidator
 {
     /**
      * @throws ValidateException
