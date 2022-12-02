@@ -10,7 +10,7 @@ class MicroserviceValidator
     /**
      * @throws ValidateException
      */
-    public static function validate(array $attributes, array $rules, array $messages): void
+    public static function validate(array $attributes, array $rules, array $messages = []): void
     {
         $validator = Validator::make($attributes, $rules, $messages);
 
